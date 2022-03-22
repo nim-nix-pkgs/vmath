@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-vmath-1_0_11.flake = false;
+  inputs.src-vmath-1_0_11.ref   = "refs/tags/1.0.11";
   inputs.src-vmath-1_0_11.owner = "treeform";
-  inputs.src-vmath-1_0_11.ref   = "1_0_11";
   inputs.src-vmath-1_0_11.repo  = "vmath";
   inputs.src-vmath-1_0_11.type  = "github";
   
